@@ -24,7 +24,7 @@
     <Compile Include="class_package\Asfia.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="class_package\Caitlin.py">
+    <Compile Include="class_package\Apple.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="class_package\Leah.py">
