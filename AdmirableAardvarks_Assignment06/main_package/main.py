@@ -16,30 +16,26 @@ from class_package.apple import Apple
 
 if __name__ == "__main__":
     # Class 1: Apple created by Caitlin
-    # Create an Apple object
-    my_apple = Apple(variety="Honeycrisp", weight=5)
+    # Create an instance of the class
+    sweet_apple = Apple(variety="sweet", weight="10")
 
-    # Demonstrate the __str__ dunder method
-    print("Using __str__:", str(my_apple))
+    # Call the __str__ dunder method
+    print(str(sweet_apple))
 
-    # Show initial state
-    print("\nInitial Apple state:")
-    print(f"Variety: {my_apple.variety}")
-    print(f"Weight: {my_apple.weight}")
-    print(f"Is ripe: {my_apple.is_ripe}")
+    # Demonstrate the properties of the object with the getter
+    print(f"Apple's variety is  {sweet_apple.variety}")
+    print(f"Apple's weight is {sweet_apple.weight}")
+    print(f"Apple's ripeness is {sweet_apple.is_ripe}")
 
-    # Use the ripen method
-    print("\nRipening the apple...")
-    print(my_apple.ripen())
+    #Call the class method of ripen
+    print(sweet_apple.ripen())
 
-    # Show updated state
-    print("\nApple state after ripening:")
-    print(f"Is ripe: {my_apple.is_ripe}")
+    # Show methods effectiveness
+    print(f"Apple's ripeness now is {sweet_apple.is_ripe}")
 
-    # Change apple attributes
-    my_apple.variety = "Sweer"
-    my_apple.weight = 8
+    # Invoke the setter to change the properties
+    sweet_apple.weight = 10
+    sweet_apple.variety = "Delicious"
 
-    # Display final state
-    print("\nFinal Apple state:")
-    print(str(my_apple))
+    # Show effectiveness of the setter
+    print(str(sweet_apple))
