@@ -14,10 +14,7 @@
 # Anything else that's relevant: I (Nathan Sharpe) handled main while Caitlin, Leah and Asfia created classes.
 from class_package.apple import Apple
 
-# main_package/main.py
-
-
-def main():
+if __name__ == "__main__":
     # Create an Apple object
     my_apple = Apple(variety="Honeycrisp", weight=175)
 
@@ -46,6 +43,3 @@ def main():
     # Display final state
     print("\nFinal Apple state:")
     print(str(my_apple))
-
-if __name__ == "__main__":
-    main()
