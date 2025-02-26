@@ -11,6 +11,7 @@
 # Citations: 
 # Anything else that's relevant:
 
+
 # apple.py
 class Apple:
     def __init__(self, variety="Gala", weight=100, is_ripe=False):
