@@ -15,17 +15,17 @@
 from class_package.apple import Apple
 
 if __name__ == "__main__":
+    # Class 1: Apple created by Caitlin
     # Create an Apple object
-    my_apple = Apple(variety="Honeycrisp", weight=175)
+    my_apple = Apple(variety="Honeycrisp", weight=5)
 
-    # Demonstrate __str__ and __repr__
+    # Demonstrate the __str__ dunder method
     print("Using __str__:", str(my_apple))
-    print("Using __repr__:", repr(my_apple))
 
     # Show initial state
     print("\nInitial Apple state:")
     print(f"Variety: {my_apple.variety}")
-    print(f"Weight: {my_apple.weight}g")
+    print(f"Weight: {my_apple.weight}")
     print(f"Is ripe: {my_apple.is_ripe}")
 
     # Use the ripen method
@@ -37,8 +37,8 @@ if __name__ == "__main__":
     print(f"Is ripe: {my_apple.is_ripe}")
 
     # Change apple attributes
-    my_apple.variety = "Gala"
-    my_apple.weight = 160
+    my_apple.variety = "Sweer"
+    my_apple.weight = 8
 
     # Display final state
     print("\nFinal Apple state:")
