@@ -3,7 +3,7 @@
 # email:  radclilr@mail.uc.edu
 # Assignment Number: Assignment 06
 # Due Date: 2/27/2025
-# Course #/Section:   IS4010-001
+# Course #/Section:   IS 4010-001
 # Semester/Year:   Spring 2025 
 # Brief Description of the assignment: This is out first group project in this course and we used Github 
 # Brief Description of what this module does. This module instantiates objects and allows us to draw conclusions about things in different modules, This code determines how ripe a banana is on a scale of 0-10
