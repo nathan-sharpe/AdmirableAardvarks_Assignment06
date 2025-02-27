@@ -27,7 +27,7 @@
     <Compile Include="class_package\apple.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="class_package\Leah.py">
+    <Compile Include="class_package\orange.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="class_package\__init__.py">
