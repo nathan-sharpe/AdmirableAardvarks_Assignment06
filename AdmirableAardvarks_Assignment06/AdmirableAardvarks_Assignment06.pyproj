@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="class_package\Asfia.py">
+    <Compile Include="class_package\banana.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="class_package\apple.py">
